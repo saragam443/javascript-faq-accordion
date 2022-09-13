@@ -2,18 +2,14 @@
 
 Beginner JavaScript Project 7.
 
-Responsive navbar that shows hamburger button to toggle menu items on window less than 768px wide.
+Compact and clear FAQ accordion that shows or hides the answer when clicked on the question or some icon.
 
 Key JavaScript concepts implemented:
-* document.getElementById()
+* document.querySelectorAll()
 * addEventListener("click", ()=>{})
 * classList.toggle()
+* forEach()
+* event.currentTarget
+* event.currentTarget.parentElement
 
-https://saragam443.github.io/javascript-responsive-navbar/
-
-
-document.querySelectorAll()
-addEventListener()
-forEach()
-classList.remove()
-classList.toggle()
+https://saragam443.github.io/javascript-faq-accordion/
